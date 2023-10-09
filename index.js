@@ -8,9 +8,13 @@ $(document).ready(function() {
 });
 function transy() {
     $('.nav-links').css({
-        "transform": "translateX(0)",
+        "transform": "translatey(0)",
         "z-index": "10",
         "color": "white"
     });
 }
 $('.burger').click(transy);
+function hide(){
+    $('.nav-links').css("transform","translatey(-100%)")
+}
+$('.burger-1').click(hide);

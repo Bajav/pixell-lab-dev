@@ -80,6 +80,29 @@ li
     display: flex;
     flex-direction: column;
 }
+.burger-1 .line
+{
+    width: 20px;
+    margin-bottom: 7px;
+    height: 1px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.burger-1 .line:nth-child(1)
+{
+    rotate: 60deg;
+}
+.burger-1 .line:nth-child(2)
+{
+    position: relative;
+    top: -9px;
+    rotate: 120deg;
+}
+.burger-1
+{
+display: none;
+}
 .burger
 {
     display: none;
@@ -193,6 +216,10 @@ li
     .nav-links a{color: #fff;}
     .burger{display: block;}
     #btn-1{display: none;}
+    .burger-1
+{
+display: block;
+}
 .land-page h1
 {
     font-size: 180%;
