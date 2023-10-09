@@ -181,9 +181,9 @@ li
         background: #020202d1;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items:center;
         justify-content: center;
-        gap: 3em;
+        gap: 2em;
         width: 100%;
         transform: translatey(-100%);
         transition: 1s ease-in;
