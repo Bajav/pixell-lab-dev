@@ -4,7 +4,7 @@ body
     padding: 0;
     margin: 0;
     box-sizing: content-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6{margin: 0;}
 .land-page
@@ -200,13 +200,41 @@ display: none;
     margin: 1% 3%; 
     letter-spacing: 15px; 
 }
-
+/* why us */
+.why-us h1
+{
+    font-size: 70px;
+}
+.why-us h5
+{
+    font-size: 60px;
+    line-height: 1;
+}
 }
 @media screen and (max-width:1024px) {
     .btn
 {
     padding: 6px;
     font-size: 10px;
+}
+
+}
+/* big sceen render */
+@media screen and (max-width:1440px) {
+    /* why us */
+.text-why img
+{
+    width: 35%;
+    border-radius: 20px;
+}
+.text-why p
+{
+    font-size: 20px;
+}
+.why-us h5
+{
+    font-size: 65px;
+    line-height: 1;
 }
 }
 /* ipad */
@@ -236,6 +264,31 @@ display: none;
 .landing-text
 {
     margin-top: 15%;
+}
+}
+/* tablet */
+@media screen and (max-width:768px)
+{
+        /* why us */
+.text-why img
+{
+    width: 45%;
+}
+.text-why p
+{
+    font-size: 16px;
+}
+.why-us h5
+{
+    font-size: 60px;
+    line-height: 1;
+}
+.text-why
+{
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    margin: 2em 3em;
 }
 }
 /* phone */
@@ -288,4 +341,36 @@ display: block;
 {
     margin-top: 20%;
 }
+        /* why us */
+        .why-us
+        {
+            height: fit-content;
+        }
+        .nav-items h3
+        {
+            margin-top: 6px;
+            margin-bottom: 1em;
+        }
+        .text-why img
+        {
+            width: 90%;
+            margin-top: 3em;
+        }
+        .text-why p
+        {
+            margin-top: 2em;
+            font-size: 16px;
+        }
+        .why-us h5
+        {
+            margin-top: 1em;
+        }
+        .text-why
+        {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 0;
+            margin: 0em 1em;
+        }
 }
