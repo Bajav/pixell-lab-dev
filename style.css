@@ -53,7 +53,7 @@ li
     width: 0px;
     height: 2px;
     background: #000;
-    top: 3.4em;
+    top: 2em;
 }
 .nav-links li :hover::before
 {
@@ -138,6 +138,52 @@ display: none;
 {
     margin-left: 45%;
     margin-top: 5%;
+}
+/* why us page */
+.why-us
+{
+    background: url(images/background-2\ \(1\).jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.why-us h1
+{
+    margin-top: 0.2em;
+    margin-bottom: 0;
+    font-weight: 50;
+    margin-left: 0.2em;
+    font-size: 80px;
+    text-transform: capitalize;
+    color: #000000cf;
+}
+.why-us h5
+{
+    font-weight: 100;
+    font-size: 80px;
+    margin-left: 0.3em;
+    text-transform: uppercase;
+    line-height: 90px;
+    text-decoration: underline;
+}
+.text-why
+{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    margin: 0em 5em;
+}
+.text-why img
+{
+    width: 35%;
+    border-radius: 20px;
+}
+.text-why p
+{
+    font-size: 20px;
 }
 /* media queries */
 @media screen and (max-width:1334px) {
