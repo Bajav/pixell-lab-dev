@@ -25,6 +25,7 @@ h1,h2,h3,h4,h5,h6{margin: 0;}
     gap: 20%;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    padding: 10px;
 }
 .nav-links
 {
@@ -53,7 +54,7 @@ li
     width: 0px;
     height: 2px;
     background: #000;
-    top: 2em;
+    top: 2.6em;
 }
 .nav-links li :hover::before
 {
