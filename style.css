@@ -208,6 +208,11 @@ display: none;
     left: 0;
     top: 0;
 }
+.side-1
+{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;   
+}
 /* media queries */
 @media screen and (max-width:1334px) {
     .land-page h1
