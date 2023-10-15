@@ -9,13 +9,9 @@ body
 h1,h2,h3,h4,h5,h6{margin: 0;}
 .land-page
 {
-    background: url(images/background-1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-blend-mode: overlay;
     height: 100vh;
-    background-color: #D6D6D6;
+    background-color: #d6d6d6a7;
 }
 .nav-items
 {
@@ -185,6 +181,32 @@ display: none;
 .text-why p
 {
     font-size: 20px;
+}
+/* past projects page  */
+.past-project{
+    background: url(images/background-2\ \(2\).jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;   
+}
+.bg-video
+{
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+}
+.bg-video video
+{
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    height: 100vh;
+    object-fit: cover;
+    left: 0;
+    top: 0;
 }
 /* media queries */
 @media screen and (max-width:1334px) {
