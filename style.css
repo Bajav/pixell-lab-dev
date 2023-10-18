@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
 body
 {
     padding: 0;
@@ -189,8 +190,9 @@ display: none;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Italiana', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;   
+    font-family: 'Poppins', sans-serif;  
 }
 .bg-video
 {
@@ -210,8 +212,7 @@ display: none;
 }
 .side-1
 {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;   
+    font-family: 'Italiana', sans-serif;
 }
 /* media queries */
 @media screen and (max-width:1334px) {
