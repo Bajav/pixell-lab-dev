@@ -118,6 +118,22 @@ display: none;
     line-height: 80px;
     color: #000000cf;
 }
+.bg-video
+{
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+}
+.bg-video video
+{
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    height: 100vh;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+}
 .land-page p
 {
     font-family: 'Open Sans', sans-serif;
@@ -184,35 +200,38 @@ display: none;
     font-size: 20px;
 }
 /* past projects page  */
-.past-project{
+.past-projects{
     background: url(images/background-2\ \(2\).jpg);
     height: 100vh;
+    background-color: #d6d6d6a7;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
+}
+.projects-text
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.side-1 h1
+{
+    font-size: 5em;
     font-family: 'Italiana', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;  
+    font-weight: 100;
 }
-.bg-video
+.svg-2
 {
-    position: relative;
-    width: 100vw;
-    overflow: hidden;
+    rotate: 180deg;
 }
-.bg-video video
+.side-2
 {
-    width: 100vw;
-    position: fixed;
-    z-index: -1;
-    height: 100vh;
-    object-fit: cover;
-    left: 0;
-    top: 0;
+    width: 40%;
 }
-.side-1
+.image{width:fit-content}
+.galery{width: 50%;}
+.image img
 {
-    font-family: 'Italiana', sans-serif;
+    width: 250%;
 }
 /* media queries */
 @media screen and (max-width:1334px) {
