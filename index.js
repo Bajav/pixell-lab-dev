@@ -18,3 +18,22 @@ function hide(){
     $('.nav-links').css("transform","translatey(-100%)")
 }
 $('.burger-1').click(hide);
+// buttons fnc
+// add class active
+
+const nextProject = () => {
+    const gallery = document.querySelector('.gallery');
+    const activeClass = document.querySelector('.active');
+    
+    if (activeClass) {
+        activeClass.classList.remove('active');
+        if (activeClass.nextElementSibling) {
+            activeClass.nextElementSibling.classList.add('active'); 
+        } else {
+            gallery.children[0].classList.add('active');
+        }
+    }
+}
+
+const btn2 = document.querySelector('.btn2');
+btn2.addEventListener('click', nextProject);

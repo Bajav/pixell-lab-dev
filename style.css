@@ -250,10 +250,18 @@ display: none;
 {
     margin-top: 3em;
 }
+.image{opacity: 1;}
+.image.active
+{
+   opacity: 0;
+}
+.svg-1{cursor: pointer;
+}
 .svg-2
 {
     margin-left: 4em;
     rotate: 180deg;
+    cursor: pointer;
 }
 /* side 2 of past projects */
 .side-2
@@ -261,14 +269,18 @@ display: none;
     width: 40%;
 }
 .image{width:fit-content}
-.galery{width: 50%;}
+.galery{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 .image img
 {
     -webkit-box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
     margin-top: 2em;
-    width: 260%;
+    width: 500%;
 }
 /* side2 btns */
 .side-2-btns
@@ -288,7 +300,7 @@ display: none;
     text-transform: uppercase;
     background: #d6d6d6a7;
 }
-.active button
+.image button
 {
     border: none;
     background: #d6d6d6a7;
