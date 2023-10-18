@@ -212,14 +212,15 @@ display: none;
 {
     display: flex;
     gap: 5%;
+
 }
 .side-1
 {
-    margin-left: 3em;
+    margin-left: 6em;
 }
 .side-1 h1
 {
-    font-size: 5em;
+    font-size: 6em;
     font-family: 'Italiana', sans-serif;
     font-weight: 100;
     margin: 0%;
@@ -254,6 +255,7 @@ display: none;
     margin-left: 4em;
     rotate: 180deg;
 }
+/* side 2 of past projects */
 .side-2
 {
     width: 40%;
@@ -262,7 +264,42 @@ display: none;
 .galery{width: 50%;}
 .image img
 {
-    width: 250%;
+    -webkit-box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
+    margin-top: 2em;
+    width: 260%;
+}
+/* side2 btns */
+.side-2-btns
+{
+    position: fixed;
+    top: 35em;
+    left: 54em;
+}
+.side-2-btns svg
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 3px;
+    height: 30px;
+    margin: 10px;
+    text-transform: uppercase;
+    background: #d6d6d6a7;
+}
+.active button
+{
+    border: none;
+    background: #d6d6d6a7;
+    color: #000;
+    text-transform: capitalize;
+    top: 41em;
+    left: 55em;
+    width: 15%;
+    padding: 5px;
+    font-size:15px;
+    position: fixed;
 }
 /* media queries */
 @media screen and (max-width:1334px) {
