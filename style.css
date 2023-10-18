@@ -211,16 +211,47 @@ display: none;
 .projects-text
 {
     display: flex;
-    justify-content: space-evenly;
+    gap: 5%;
+}
+.side-1
+{
+    margin-left: 3em;
 }
 .side-1 h1
 {
     font-size: 5em;
     font-family: 'Italiana', sans-serif;
     font-weight: 100;
+    margin: 0%;
+}
+.side-1 p
+{
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    margin: 0;
+    font-weight: 500; 
+    font-size: 1em;
+}
+.side-1 h3
+{
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    line-height: 95%;
+    text-decoration: underline;
+    margin-top: 2em;
+}
+/* buttons for the slider */
+.btns-main
+{
+    margin-top: 3em;
 }
 .svg-2
 {
+    margin-left: 4em;
     rotate: 180deg;
 }
 .side-2
