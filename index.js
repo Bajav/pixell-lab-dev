@@ -34,6 +34,19 @@ const nextProject = () => {
         }
     }
 }
+const prevProject = () => {
+    const gallery = document.querySelector('.gallery');
+    const activeClass = document.querySelector('.active');
+    
+    if (activeClass) {
+        activeClass.classList.remove('active');
+        if (activeClass.nextElementSibling) {
+            activeClass.nextElementSibling.classList.add('active'); 
+        } else {
+            gallery.children[0].classList.add('active');
+        }
+    }
+}
 
-const btn2 = document.querySelector('.btn2');
-btn2.addEventListener('click', nextProject);
+const btn1 = document.querySelector('.btn1').addEventListener('click', prevProject);
+const btn2 = document.querySelector('.btn2').addEventListener('click', nextProject);

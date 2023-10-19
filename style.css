@@ -280,7 +280,14 @@ display: none;
     -moz-box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
     margin-top: 2em;
+}
+.c1 img
+{
     width: 500%;
+}
+.c2 img
+{
+    width: 450%;
 }
 /* side2 btns */
 .side-2-btns
