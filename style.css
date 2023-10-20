@@ -250,10 +250,10 @@ display: none;
 {
     margin-top: 3em;
 }
-.image{opacity: 1;}
+.image{opacity: 0;}
 .image.active
 {
-   opacity: 0;
+   opacity: 1;
 }
 .svg-1{cursor: pointer;
 }
@@ -271,8 +271,6 @@ display: none;
 .image{width:fit-content}
 .galery{
     width: 50%;
-    display: flex;
-    justify-content: center;
 }
 .image img
 {
@@ -283,11 +281,13 @@ display: none;
 }
 .c1 img
 {
-    width: 500%;
+    width: 250%;
 }
 .c2 img
 {
-    width: 450%;
+    position:fixed;
+    top: 4em;
+    width: 50%;
 }
 /* side2 btns */
 .side-2-btns
