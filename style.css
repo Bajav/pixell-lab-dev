@@ -342,9 +342,10 @@ display: none;
 {
     margin: 0;
     font-family: 'Italiana', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
     letter-spacing: 2px;
+    text-transform: capitalize;
 }
 .inner-cards-main
 {
@@ -358,8 +359,8 @@ display: none;
     background-color: #ffffffcf;
     padding: 10px;
     border-radius: 20px;
-    width: 20%;
-    height: 32vh;
+    width: 17%;
+    height: 30vh;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -415,7 +416,12 @@ display: none;
     padding: 6px;
     font-size: 10px;
 }
+.small-inner-card
+{
 
+    width: 25%;
+    height: 33vh;
+}
 }
 /* big sceen render */
 @media screen and (max-width:1440px) {
@@ -487,6 +493,22 @@ display: none;
     align-items: center;
     gap: 6%;
     margin: 2em 3em;
+}
+/* cards */
+.small-inner-card
+{
+
+    width: 28%;
+    height: 33vh;
+}
+.inner-cards-main
+{
+    gap: 1em;
+}
+.inner-cards-main h1
+{
+    font-size: 16px;
+    font-weight: bold;
 }
 }
 /* phone */
@@ -571,4 +593,39 @@ display: block;
             gap: 0;
             margin: 0em 1em;
         }
+        /* services cards */
+        .services
+        {
+            height: fit-content;
+        }
+        .inner-cards-main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.small-inner-card
+{
+    width: 60%;
+    height: 33vh;
+}
+.inner-cards-main
+{
+    gap: 1em;
+}
+.cards h1
+{
+    font-size: 80px;
+    font-weight: 700;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.inner-cards-main h1
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 }
