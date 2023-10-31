@@ -293,8 +293,9 @@ display: none;
 .side-2-btns
 {
     position: fixed;
-    top: 35em;
+    top: 30em;
     left: 54em;
+    display: none;
 }
 .side-2-btns svg
 {
@@ -313,10 +314,11 @@ display: none;
     background: #d6d6d6a7;
     color: #000;
     text-transform: capitalize;
-    top: 41em;
+    top: 36em;
     left: 55em;
     width: 15%;
-    padding: 5px;
+    padding: 7px;
+    border-radius: 5px;
     font-size:15px;
     position: fixed;
 }
@@ -457,7 +459,7 @@ display: block;
 }
 .land-page h1
 {
-    font-size: 180%;
+    font-size: 210%;
     margin: 3% 10%; 
     line-height: 30px;
     font-weight: 200;
