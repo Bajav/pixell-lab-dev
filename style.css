@@ -322,6 +322,67 @@ display: none;
     font-size:15px;
     position: fixed;
 }
+/* sercices page */
+.services
+{
+    background: url(images/background-2\ \(2\).jpg);
+    height: 100vh;
+    background-color: #d6d6d6a7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards h1
+{
+    margin: 0;
+    font-family: 'Italiana', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.inner-cards-main
+{
+    display: flex;
+    margin-top: 1em;
+    gap: 2em;
+    justify-content: center;
+}
+.small-inner-card
+{
+    background-color: #ffffffcf;
+    padding: 10px;
+    border-radius: 20px;
+    width: 20%;
+    height: 32vh;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.small-inner-card h1
+{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    margin-top:15px;
+    line-height: 25px;
+}
+.icons img
+{
+    width: 16%;
+    margin-top: 10px;
+}
+.small-inner-card p
+{
+    font-size: 10px;
+    font-weight: 600;
+    color: #000000a1;
+}
 /* media queries */
 @media screen and (max-width:1334px) {
     .land-page h1
