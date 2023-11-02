@@ -404,12 +404,18 @@ display: none;
     background-size: cover;
     background-blend-mode: overlay;       
 }
+.pricing-cards
+{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
 .card-1
 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     width: 20%;
-    background: #ffffff;
+    background: #ffffff81;
     padding: 20px;
     border-radius: 30px;
 }
@@ -458,7 +464,7 @@ display: none;
 .btn-start
 {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 60px;
     height: 35px;
     border-radius: 7px;
     border: none;
