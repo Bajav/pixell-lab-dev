@@ -485,7 +485,6 @@ display: none;
 .btn-start
 {
     width: 100%;
-    margin-top: 60px;
     height: 35px;
     border-radius: 7px;
     border: none;
@@ -497,7 +496,11 @@ display: none;
 }
 .business .btn-start
 {
-    margin-top: 20px;
+    margin-top: 40px;
+}
+.basic .btn-start
+{
+    margin-top: 120px;
 }
 .business h2
 {
@@ -505,7 +508,7 @@ display: none;
 }
 .business h1
 {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 .business
 {
@@ -535,11 +538,22 @@ display: none;
     text-align: center;
     margin-top: 20px;
 }
+.card-1 h4
+{
+    font-size: 13px;
+}
 .cards-flex-2-2 
 {
     margin-top: 2.8em;
 }
-
+.cards-flex-2-2 .fex-me-item
+{
+    margin-top: 7px;
+}
+.custom .btn-start
+{
+    margin-top: 60px;
+}
 /* media queries */
 @media screen and (max-width:1334px) {
     .land-page h1
