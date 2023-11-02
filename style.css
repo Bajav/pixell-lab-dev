@@ -397,7 +397,7 @@ display: none;
 .pricing
 {
     background: url(images/background-2\ \(2\).jpg);
-    height: 100vh;
+    height: fit-content;
     background-color: #e3e3e3d7;
     background-position: center;
     background-repeat: no-repeat;
@@ -408,9 +408,9 @@ display: none;
 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    width: 30%;
-    background: #ffffffc6;
-    padding: 30px;
+    width: 20%;
+    background: #ffffff;
+    padding: 20px;
     border-radius: 30px;
 }
 .card-1 h2
@@ -424,6 +424,17 @@ display: none;
     padding: 8px;
     border-radius: 20px;
 }
+.card-1 h1
+{
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.card-1 p
+{
+    font-size: 10px;
+    color: #414141;
+}
 .fex-me-item
 {
     margin-top: 5px;
@@ -431,15 +442,29 @@ display: none;
     justify-content: space-between;
     align-items: center;
 }
+.fex-me-item h4
+{
+    font-size: 15px;
+    font-weight: 500;
+}
+.fex-me-item img
+{
+    width: 15px;
+}
+.fex-me-item span
+{
+    font-size: 10px;
+}
 .btn-start
 {
-    width: 90%;
-    margin-top: 20px;
+    width: 100%;
+    margin-top: 80px;
     height: 35px;
     border-radius: 7px;
     border: none;
-    background: #000000d4;
-    color: #ffffffcf;
+    background: #2E2E2E;
+    color: #fffffffb;
+    font-weight: 500;
     font-size: 15px;
     text-transform: capitalize;
 }
