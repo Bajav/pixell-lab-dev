@@ -394,10 +394,24 @@ display: none;
     font-weight: 900;
 }
 /* pricing  */
+.pricing
+{
+    background: url(images/background-2\ \(2\).jpg);
+    height: 100vh;
+    background-color: #e3e3e3d7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;       
+}
 .card-1
 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    width: 30%;
+    background: #ffffffc6;
+    padding: 30px;
+    border-radius: 30px;
 }
 .card-1 h2
 {
@@ -409,6 +423,25 @@ display: none;
     text-align: center;
     padding: 8px;
     border-radius: 20px;
+}
+.fex-me-item
+{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-start
+{
+    width: 90%;
+    margin-top: 20px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    background: #000000d4;
+    color: #ffffffcf;
+    font-size: 15px;
+    text-transform: capitalize;
 }
 /* media queries */
 @media screen and (max-width:1334px) {
