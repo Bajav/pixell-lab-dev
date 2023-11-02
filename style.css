@@ -393,6 +393,23 @@ display: none;
     color: #120909a1;
     font-weight: 900;
 }
+/* pricing  */
+.card-1
+{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.card-1 h2
+{
+    background: #151212;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+}
 /* media queries */
 @media screen and (max-width:1334px) {
     .land-page h1
