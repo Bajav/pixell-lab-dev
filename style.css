@@ -398,7 +398,8 @@ display: none;
 {
     background: url(images/background-2\ \(2\).jpg);
     height: fit-content;
-    background-color: #e3e3e3d7;
+    /* background-color: #e3e3e3d7; */
+    background-color: #00000072;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -416,10 +417,14 @@ display: none;
     font-family: 'Poppins', sans-serif;
     width: 20%;
     background: #ffffff81;
-    padding: 20px;
     border-radius: 30px;
     height: 90vh;
+    text-transform: capitalize;
     margin-bottom: 20px;
+}
+.basic
+{
+    padding: 20px;
 }
 .card-1 h2
 {
@@ -502,6 +507,10 @@ display: none;
 {
     margin-bottom: 0px;
 }
+.business
+{
+    padding: 20px;
+}
 .cardss
 {
     background: none;
@@ -521,10 +530,16 @@ display: none;
 {
     width: 60%;
 }
+.cards-flex-2 p
+{
+    text-align: center;
+    margin-top: 20px;
+}
 .cards-flex-2-2 
 {
-    margin-top: 3em;
+    margin-top: 2.8em;
 }
+
 /* media queries */
 @media screen and (max-width:1334px) {
     .land-page h1
