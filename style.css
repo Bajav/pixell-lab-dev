@@ -418,6 +418,8 @@ display: none;
     background: #ffffff81;
     padding: 20px;
     border-radius: 30px;
+    height: 90vh;
+    margin-bottom: 20px;
 }
 .card-1 h2
 {
@@ -441,6 +443,15 @@ display: none;
     font-size: 10px;
     color: #414141;
 }
+.alin
+{
+    text-align: center;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: 'Italiana', sans-serif;
+    margin-bottom: 1em;
+}
 .fex-me-item
 {
     margin-top: 5px;
@@ -452,6 +463,7 @@ display: none;
 {
     font-size: 15px;
     font-weight: 500;
+    color: #414141;
 }
 .fex-me-item img
 {
@@ -473,6 +485,18 @@ display: none;
     font-weight: 500;
     font-size: 15px;
     text-transform: capitalize;
+}
+.business .btn-start
+{
+    margin-top: 20px;
+}
+.business h2
+{
+    width: 70px;
+}
+.business h1
+{
+    margin-bottom: 0px;
 }
 /* media queries */
 @media screen and (max-width:1334px) {
