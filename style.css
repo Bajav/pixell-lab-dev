@@ -198,9 +198,22 @@ display: none;
     width: 35%;
     border-radius: 20px;
 }
+.call-flex
+{
+    display: flex;
+    align-items: center;
+}
+.call-flex img
+{
+    rotate: 10deg;
+    width: 150px;
+    position: relative;
+    right: 2em;
+}
 .text-why p
 {
     font-size: 20px;
+    font-weight: 100;
 }
 /* past projects page  */
 .past-projects{
