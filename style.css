@@ -359,6 +359,7 @@ display: none;
     flex-direction: column;
     align-items: center;
 }
+
 .cards h1
 {
     margin: 0;
@@ -367,6 +368,11 @@ display: none;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: capitalize;
+}
+.main-page h1
+{
+    font-size: 80px;
+    padding-top: 0.2em;
 }
 .inner-cards-main
 {
