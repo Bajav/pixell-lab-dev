@@ -232,7 +232,7 @@ display: none;
 {
     display: flex;
     gap: 5%;
-
+    padding-top: 50px;
 }
 .side-1
 {
@@ -254,6 +254,7 @@ display: none;
     margin: 0;
     font-weight: 500; 
     font-size: 1em;
+    font-weight: 100;
 }
 .side-1 h3
 {
@@ -264,13 +265,14 @@ display: none;
     line-height: 95%;
     text-decoration: underline;
     margin-top: 2em;
+    font-weight: 100;
 }
 /* buttons for the slider */
 .btns-main
 {
     margin-top: 3em;
 }
-.image{opacity: 0;}
+.image{opacity: 1;}
 .image.active
 {
    opacity: 1;
@@ -305,17 +307,21 @@ display: none;
 }
 .c2 img
 {
-    position:fixed;
+    position:relative;
     top: 4em;
     width: 50%;
+}
+.c2-2 img
+{
+    position: absolute;
+    top: 84em;
 }
 /* side2 btns */
 .side-2-btns
 {
-    position: fixed;
+    position: absolute;
     top: 30em;
     left: 54em;
-    display: none;
 }
 .side-2-btns svg
 {
@@ -327,6 +333,11 @@ display: none;
     margin: 10px;
     text-transform: uppercase;
     background: #d6d6d6a7;
+}
+.linked
+{
+    position: absolute;
+    top: 10em;
 }
 .image button
 {
@@ -340,7 +351,7 @@ display: none;
     padding: 7px;
     border-radius: 5px;
     font-size:15px;
-    position: fixed;
+    position: absolute;
 }
 /* sercices page */
 .services
@@ -421,8 +432,8 @@ display: none;
 {
     background: url(images/background-2\ \(2\).jpg);
     height: fit-content;
-    /* background-color: #e3e3e3d7; */
-    background-color: #00000072;
+    background-color: #e3e3e3a9;
+    /* background-color: #00000072; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
