@@ -662,6 +662,39 @@ display: none;
     font-size: 65px;
     line-height: 1;
 }
+/* past projects */
+.c1 img
+{
+    width: 260%;
+    padding-bottom: 0px;
+}
+.image button
+{
+    top: 30em;
+}
+.side-1 h1
+{
+    font-size: 4em;
+}
+.side-1
+{
+    margin-left: 2em;
+}
+.side-1 h3
+{
+    margin-top: 0.7em;
+    padding-bottom: 20px;
+}
+.side-2-btns
+{
+    top: 25em;
+    left: 35em;
+}
+.image button 
+{
+    top: 30em;
+    left: 36em;
+}
 }
 /* ipad */
 @media screen and (max-width:912px) 
@@ -695,6 +728,10 @@ display: none;
 /* tablet */
 @media screen and (max-width:768px)
 {
+ .nav-links li
+ {
+    font-size: 13px;
+ }
         /* why us */
 .text-why img
 {
@@ -731,6 +768,48 @@ display: none;
 {
     font-size: 16px;
     font-weight: bold;
+}
+/* past projects */
+.c1 img
+{
+    width: 260%;
+    padding-bottom: 0px;
+}
+.image button
+{
+    top: 30em;
+}
+.side-1 h1
+{
+    font-size: 3.5em;
+}
+.side-1
+{
+    margin-left: 2em;
+}
+.side-1 h3
+{
+    font-size: 2em;
+}
+.side-2-btns
+{
+    top: 17em;
+    left: 30em;
+}
+.side-2-btns svg 
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+.side-1 p
+{
+    font-size: 12px;
+}
+.image button 
+{
+    top: 22em;
+    left: 32em;
 }
 }
 /* phone */
@@ -849,5 +928,15 @@ display: block;
     font-size: 20px;
     font-weight: bold;
 }
-
+/* past projects */
+.projects-text
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.btns-main
+{
+    display: none;
+}
 }
