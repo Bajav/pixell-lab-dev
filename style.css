@@ -222,7 +222,7 @@ display: none;
 /* past projects page  */
 .past-projects{
     background: url(images/background-2\ \(2\).jpg);
-    height: 100vh;
+    height: fit-content;
     background-color: #d6d6d6a7;
     background-position: center;
     background-repeat: no-repeat;
@@ -266,6 +266,7 @@ display: none;
     text-decoration: underline;
     margin-top: 2em;
     font-weight: 100;
+    padding-bottom: 20px;
 }
 /* buttons for the slider */
 .btns-main
@@ -314,7 +315,7 @@ display: none;
 /* side2 btns */
 .side-2-btns
 {
-    position: absolute;
+    position: fixed;
     top: 30em;
     left: 54em;
 }
@@ -586,6 +587,7 @@ display: none;
     margin-top: 60px;
 }
 /* media queries */
+
 @media screen and (max-width:1334px) {
     .land-page h1
 {
@@ -609,6 +611,24 @@ display: none;
 {
     font-size: 60px;
     line-height: 1;
+}
+/* past projects */
+.c1 img
+{
+    width: 240%;
+    padding-bottom: 0px;
+}
+.image button
+{
+    top: 30em;
+}
+.side-1 h1
+{
+    font-size: 5em;
+}
+.side-1 h3
+{
+    margin-top: 0.7em;
 }
 }
 @media screen and (max-width:1024px) {
