@@ -272,7 +272,7 @@ display: none;
 {
     margin-top: 3em;
 }
-.image{opacity: 1;}
+.image{opacity: 0;}
 .image.active
 {
    opacity: 1;
@@ -307,14 +307,9 @@ display: none;
 }
 .c2 img
 {
-    position:relative;
+    position:fixed;
     top: 4em;
     width: 50%;
-}
-.c2-2 img
-{
-    position: absolute;
-    top: 84em;
 }
 /* side2 btns */
 .side-2-btns
@@ -375,10 +370,11 @@ display: none;
 {
     margin: 0;
     font-family: 'Italiana', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: capitalize;
+    padding-top: 50px;
 }
 .main-page h1
 {
@@ -413,6 +409,7 @@ display: none;
     font-weight: bold;
     margin-top:10px;
     line-height: 25px;
+    padding-top: 0;
 }
 .icons img
 {
