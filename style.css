@@ -629,6 +629,7 @@ display: none;
 .side-1 h3
 {
     margin-top: 0.7em;
+    padding-bottom: 70px;
 }
 }
 @media screen and (max-width:1024px) {
