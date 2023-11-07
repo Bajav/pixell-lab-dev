@@ -587,17 +587,25 @@ display: none;
     margin-top: 60px;
 }
 /* conatct page */
+.contact
+{
+    background: #d6d6d6a7;
+}
 .flex-contact
 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 1em;
+    gap: 2%;
 }
 .text-huge h1
 {
-    font-size: 10em;
-    text-transform: capitalize;
+    font-size: 9em;
+    text-transform: uppercase;
     opacity: 0.2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 0.3em;
 }
 .flex-items
 {
@@ -607,6 +615,16 @@ display: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.flex-items h3
+{
+    font-weight: 100;
+}
+.flex-items img 
+{
+    width: 30px;
 }
 /* media queries */
 
