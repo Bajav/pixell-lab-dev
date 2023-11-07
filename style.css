@@ -929,6 +929,10 @@ display: block;
     font-weight: bold;
 }
 /* past projects */
+.past-projects
+{
+    height: 100vh;
+}
 .projects-text
 {
     display: flex;
@@ -939,4 +943,9 @@ display: block;
 {
     display: none;
 }
+.side-1 h3
+{
+    display: none;
+}
+
 }
