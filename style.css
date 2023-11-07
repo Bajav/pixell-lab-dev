@@ -586,6 +586,28 @@ display: none;
 {
     margin-top: 60px;
 }
+/* conatct page */
+.flex-contact
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-huge h1
+{
+    font-size: 10em;
+    text-transform: capitalize;
+    opacity: 0.2;
+}
+.flex-items
+{
+    padding-right: 2em;
+    /* background: #000; */
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* media queries */
 
 @media screen and (max-width:1334px) {
