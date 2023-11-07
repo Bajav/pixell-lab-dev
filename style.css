@@ -237,11 +237,11 @@ display: none;
 }
 .side-1
 {
-    margin-left: 0em;
+    margin-left: 1em;
 }
 .side-1 h1
 {
-    font-size: 6em;
+    font-size: 7em;
     font-family: 'Italiana', sans-serif;
     font-weight: 100;
     margin: 0%;
@@ -265,9 +265,8 @@ display: none;
     text-transform: uppercase;
     line-height: 95%;
     text-decoration: underline;
-    margin-top: 2em;
+    margin-top: 2.7em;
     font-weight: 100;
-    padding-bottom: 20px;
 }
 /* buttons for the slider */
 .btns-main
@@ -291,7 +290,7 @@ display: none;
 .side-2
 {
     width: 40%;
-    margin-right: 6em;
+    margin-right: 18em;
 }
 .image{width:fit-content}
 .image img
@@ -300,17 +299,17 @@ display: none;
     -moz-box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
     margin-top: 2em;
-    width: 100%;
+    width: 120%;
 }
 .c1 img
 {
-    width: 100%;
+    width: 150%;
 }
 .c2 img
 {
-    position:fixed;
+    position:absolute;
     top: 4em;
-    width: 50%;
+    width: 60%;
 }
 /* side2 btns */
 .side-2-btns
@@ -329,25 +328,6 @@ display: none;
     margin: 10px;
     text-transform: uppercase;
     background: #d6d6d6a7;
-}
-.linked
-{
-    position: absolute;
-    top: 10em;
-}
-.image button
-{
-    border: none;
-    background: #d6d6d6a7;
-    color: #000;
-    text-transform: capitalize;
-    top: 36em;
-    left: 55em;
-    width: 15%;
-    padding: 7px;
-    border-radius: 5px;
-    font-size:15px;
-    position: absolute;
 }
 /* sercices page */
 .services
@@ -658,9 +638,13 @@ display: none;
     line-height: 1;
 }
 /* past projects */
+.past-projects
+{
+    height: 115vh;
+}
 .c1 img
 {
-    width: 240%;
+    width: 130%;
     padding-bottom: 0px;
 }
 .image button
@@ -669,12 +653,15 @@ display: none;
 }
 .side-1 h1
 {
-    font-size: 5em;
+    font-size: 6em;
 }
 .side-1 h3
 {
-    margin-top: 0.7em;
-    padding-bottom: 70px;
+    margin-top: 2em;
+}
+.c2 img
+{
+    width: 55%;
 }
 }
 @media screen and (max-width:1024px) {
@@ -691,56 +678,7 @@ display: none;
 }
 }
 /* big sceen render */
-@media screen and (max-width:1440px) {
-    /* why us */
-.text-why img
-{
-    width: 35%;
-    border-radius: 20px;
-}
-.text-why p
-{
-    font-size: 20px;
-}
-.why-us h5
-{
-    font-size: 65px;
-    line-height: 1;
-}
-/* past projects */
-.c1 img
-{
-    width: 130%;
-    padding-bottom: 0px;
-}
-.image button
-{
-    top: 30em;
-}
-.side-1 h1
-{
-    font-size: 4em;
-}
-.side-1
-{
-    margin-left: 0em;
-}
-.side-1 h3
-{
-    margin-top: 0.7em;
-    padding-bottom: 20px;
-}
-.side-2-btns
-{
-    top: 25em;
-    left: 35em;
-}
-.image button 
-{
-    top: 30em;
-    left: 36em;
-}
-}
+
 /* ipad */
 @media screen and (max-width:912px) 
 {
@@ -994,3 +932,53 @@ display: block;
 }
 
 }
+/* @media screen and (max-width:1440px) {
+    why us
+.text-why img
+{
+    width: 35%;
+    border-radius: 20px;
+}
+.text-why p
+{
+    font-size: 20px;
+}
+.why-us h5
+{
+    font-size: 65px;
+    line-height: 1;
+}
+past projects
+.c1 img
+{
+    width: 150%;
+    padding-bottom: 0px;
+}
+.image button
+{
+    top: 30em;
+}
+.side-1 h1
+{
+    font-size: 7.5em;
+}
+.side-1
+{
+    margin-left: 0em;
+}
+.side-1 h3
+{
+    margin-top: 1.3em;
+    padding-bottom: 20px;
+}
+.side-2-btns
+{
+    top: 25em;
+    left: 35em;
+}
+.image button 
+{
+    top: 30em;
+    left: 36em;
+}
+} */
