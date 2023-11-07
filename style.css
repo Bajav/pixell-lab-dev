@@ -604,7 +604,8 @@ display: none;
     font-size: 9em;
     text-transform: uppercase;
     opacity: 0.2;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding-top: 0.3em;
     line-height: 120%;
 }
@@ -616,7 +617,8 @@ display: none;
     gap:10%; 
     align-items: center;
     margin-top: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .flex-items h3
 {
