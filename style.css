@@ -676,6 +676,28 @@ display: none;
     width: 25%;
     height: 33vh;
 }
+/* past projects */
+.past-projects
+{
+    height: 103vh;
+}
+.c1 img
+{
+    width: 210%;
+    padding-bottom: 0px;
+}
+.side-1 h1
+{
+    font-size: 6em;
+}
+.side-1 h3
+{
+    margin-top: 1em;
+}
+.c2 img
+{
+    width: 53%;
+}
 }
 /* big sceen render */
 
@@ -753,10 +775,18 @@ display: none;
     font-weight: bold;
 }
 /* past projects */
+.past-projects
+{
+    height: 100vh;
+}
 .c1 img
 {
-    width: 260%;
+    width: 270%;
     padding-bottom: 0px;
+}
+.c2 img
+{
+    width: 59%;
 }
 .image button
 {
@@ -772,6 +802,7 @@ display: none;
 }
 .side-1 h3
 {
+    margin-top: 5em;
     font-size: 2em;
 }
 .side-2-btns
@@ -787,7 +818,7 @@ display: none;
 }
 .side-1 p
 {
-    font-size: 12px;
+    font-size: 10px;
 }
 .image button 
 {
