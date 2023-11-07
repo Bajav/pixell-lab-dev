@@ -968,6 +968,18 @@ display: block;
     margin-right: 0em;
     margin-left: 1em;
 }
+.mobile-version
+{
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    line-height: 95%;
+    text-decoration: underline;
+    font-weight: 100;   
+    margin-top: 1em;
+    margin-left:1em;
+}
 }
 /* @media screen and (max-width:1440px) {
     why us
