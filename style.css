@@ -222,7 +222,7 @@ display: none;
 /* past projects page  */
 .past-projects{
     background: url(images/background-2\ \(2\).jpg);
-    height: fit-content;
+    height: 110vh;
     background-color: #d6d6d6a7;
     background-position: center;
     background-repeat: no-repeat;
@@ -233,10 +233,11 @@ display: none;
     display: flex;
     gap: 5%;
     padding-top: 50px;
+    justify-content: center;
 }
 .side-1
 {
-    margin-left: 6em;
+    margin-left: 0em;
 }
 .side-1 h1
 {
@@ -290,21 +291,20 @@ display: none;
 .side-2
 {
     width: 40%;
+    margin-right: 6em;
 }
 .image{width:fit-content}
-.galery{
-    width: 50%;
-}
 .image img
 {
     -webkit-box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
     margin-top: 2em;
+    width: 100%;
 }
 .c1 img
 {
-    width: 250%;
+    width: 100%;
 }
 .c2 img
 {
@@ -428,14 +428,13 @@ display: none;
 /* pricing  */
 .pricing
 {
-    background: url(images/background-2\ \(2\).jpg);
+    background: url(images/pricingbg.jpg);
     height: fit-content;
-    background-color: #e3e3e3a9;
-    /* background-color: #00000072; */
+    background-blend-mode: overlay; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: overlay;       
+    background-color: #e3e3e3;      
 }
 .pricing-cards
 {
@@ -595,10 +594,10 @@ display: none;
 .flex-contact
 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     padding: 1em;
     gap: 2%;
+    justify-content: center;
 }
 .text-huge h1
 {
@@ -607,16 +606,16 @@ display: none;
     opacity: 0.2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 0.3em;
+    line-height: 120%;
 }
 .flex-items
 {
-    padding-right: 2em;
     /* background: #000; */
-    width: 40vw;
+    width: 25vw;
     display: flex;
-    justify-content: space-between;
+    gap:10%; 
     align-items: center;
-    margin-top: 15px;
+    margin-top: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .flex-items h3
@@ -706,7 +705,7 @@ display: none;
 /* past projects */
 .c1 img
 {
-    width: 260%;
+    width: 130%;
     padding-bottom: 0px;
 }
 .image button
@@ -719,7 +718,7 @@ display: none;
 }
 .side-1
 {
-    margin-left: 2em;
+    margin-left: 0em;
 }
 .side-1 h3
 {
