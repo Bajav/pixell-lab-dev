@@ -16,7 +16,7 @@ function transy() {
 $('.burger').click(transy);
 
 function hide() {
-    $('.nav-links').css("transform", "translateY(-100%)");
+    $('.nav-links').css("transform", "translateY(100)");
 }
 
 $('.burger-1').click(hide);

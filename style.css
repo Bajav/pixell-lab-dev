@@ -293,6 +293,7 @@ display: none;
     margin-right: 18em;
 }
 .image{width:fit-content}
+.mobile-version{display: none;}
 .image img
 {
     -webkit-box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
@@ -304,12 +305,14 @@ display: none;
 .c1 img
 {
     width: 150%;
+    background: none;
 }
 .c2 img
 {
     position:absolute;
     top: 4em;
-    width: 60%;
+    width: 50%;
+    background: none;
 }
 /* side2 btns */
 .side-2-btns
@@ -979,6 +982,7 @@ display: block;
     font-weight: 100;   
     margin-top: 1em;
     margin-left:1em;
+    display: block;
 }
 }
 /* @media screen and (max-width:1440px) {
