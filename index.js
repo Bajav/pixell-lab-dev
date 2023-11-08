@@ -11,12 +11,15 @@ function transy() {
         "z-index": "10",
         "color": "white"
     });
+
+    $('body').css("overflow","hidden");
 }
 
 $('.burger').click(transy);
 
 function hide() {
     $('.nav-links').css("transform", "translateY(-100%)");
+    $('body').css("overflow","visible");
 }
 
 $('.burger-1').click(hide);
