@@ -580,7 +580,6 @@ display: none;
 }
 .flex-items
 {
-    /* background: #000; */
     width: 25vw;
     display: flex;
     gap:10%; 
@@ -913,11 +912,12 @@ display: block;
     font-size: 80px;
     font-weight: 700;
     margin-right: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
 }
 .inner-cards-main h1
 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 /* past projects */
@@ -968,54 +968,21 @@ display: block;
     margin-left:1em;
     display: block;
 }
-}
-/* @media screen and (max-width:1440px) {
-    why us
-.text-why img
+/* contacts */
+.flex-contact
 {
-    width: 35%;
-    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    padding: 1em;
+    flex-direction: column;
+    gap: 2%;
 }
-.text-why p
+.text-huge h1
 {
-    font-size: 20px;
+    font-size: 5.1em;
 }
-.why-us h5
+.flex-items
 {
-    font-size: 65px;
-    line-height: 1;
+    width: 100%;
 }
-past projects
-.c1 img
-{
-    width: 150%;
-    padding-bottom: 0px;
 }
-.image button
-{
-    top: 30em;
-}
-.side-1 h1
-{
-    font-size: 7.5em;
-}
-.side-1
-{
-    margin-left: 0em;
-}
-.side-1 h3
-{
-    margin-top: 1.3em;
-    padding-bottom: 20px;
-}
-.side-2-btns
-{
-    top: 25em;
-    left: 35em;
-}
-.image button 
-{
-    top: 30em;
-    left: 36em;
-}
-} */
