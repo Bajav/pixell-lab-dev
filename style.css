@@ -116,7 +116,7 @@ display: none;
     display: none;
 }
 /* landind section text */
-.land-page h1
+.land-page h5
 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -126,6 +126,7 @@ display: none;
     font-weight: 100;
     line-height: 80px;
     color: #000000cf;
+    text-align: center;
 }
 .bg-video
 {
