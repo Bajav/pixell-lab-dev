@@ -73,8 +73,11 @@ li
     padding: 10px;
     text-transform: capitalize;
     font-weight: 100;
-    color: #fff;
     font-size: 15px;
+}
+.btn a
+{
+    color: #fff;
 }
 .burger .line
 {
@@ -488,10 +491,19 @@ display: none;
     border-radius: 7px;
     border: none;
     background: #2E2E2E;
-    color: #fffffffb;
     font-weight: 500;
     font-size: 15px;
     text-transform: capitalize;
+    cursor: pointer;
+}
+.btn-start:hover
+{
+    background: #000;
+    transition: all 3s;
+}
+.btn-start a
+{
+    color: #fffffffb;
 }
 .business .btn-start
 {
@@ -606,6 +618,12 @@ display: none;
     font-weight: 100;
     opacity: 0.5;
     text-transform: capitalize;
+}
+.contact-page
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* media queries */
 
