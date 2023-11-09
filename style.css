@@ -395,7 +395,7 @@ display: none;
 .pricing
 {
     background: url(images/pricingbg.jpg);
-    height: fit-content;
+    height: 130vh;
     background-blend-mode: overlay; 
     background-position: center;
     background-repeat: no-repeat;
@@ -743,6 +743,7 @@ display: none;
 {
     font-size: 60px;
     line-height: 1;
+    padding-bottom: 20px;
 }
 .text-why
 {
@@ -968,7 +969,46 @@ display: block;
     margin-left:1em;
     display: block;
 }
+/* pricing */
+.pricing
+{
+    height: fit-content;
+}
+.pricing-cards
+{
+    display: flex;
+    gap: 2%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-1
+{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    background: #ffffff81;
+    border-radius: 30px;
+    height: 100vh;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.cardss
+{
+    background: none;
+    box-shadow: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* contacts */
+.contact
+{
+    height: fit-content;
+}
 .flex-contact
 {
     display: flex;
@@ -984,5 +1024,33 @@ display: block;
 .flex-items
 {
     width: 100%;
+}
+}
+@media screen and (max-width:414px) {
+    .card-1
+{
+    height: fit-content;
+}
+.pricing-cards
+{
+    display: flex;
+    gap: 2%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardss
+{
+    margin-bottom: 90px;
+} 
+  /*contacts  */
+  .contact
+  {
+    height: fit-content;
+  }
+  .text-huge h1
+{
+    font-size:4.5em;
+    margin-bottom: 0.5em;
 }
 }
