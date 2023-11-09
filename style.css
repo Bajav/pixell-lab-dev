@@ -621,9 +621,26 @@ display: none;
 }
 .contact-page
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: url(images/background-contact.jpg);
+    background-blend-mode: overlay; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e3e3e3; 
+    height: 100vh; 
+}
+.contact-page .flex-contact
+{
+    padding-top: 5em;
+    gap: 2%;
+}
+.contact-page .flex-contact h1
+{
+    font-size: 10em;
+}
+.contact-page .footer-text
+{
+    margin-top: 6em;
 }
 /* media queries */
 
