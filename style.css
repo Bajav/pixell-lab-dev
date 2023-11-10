@@ -144,10 +144,7 @@ display: none;
     left: 0;
     top: 0;
 }
-.blink1
-{
-    display: none;
-}
+
 .land-page p
 {
     font-family: 'Open Sans', sans-serif;
@@ -157,18 +154,32 @@ display: none;
     font-size: 150%;
     font-weight: 200;
     position: absolute;
-    top: 20em;
+    top: 17em;
     margin: 0% 3% 0%;  
     color: #000000cf; 
 }
+.blink1
+{
+    position: relative;
+    top: 1em;
+}
+.blink3
+{
+    position: relative;
+    top: -1em;
+}
+
 .landing-text
 {
     margin-top: 5%;
 }
 .read-more
 {
-    margin-left: 45%;
-    margin-top: 5%;
+    position: absolute;
+    top: 33em;
+    text-align: center;
+    left:45%;
+    color: #fff;
 }
 /* why us page */
 .why-us
