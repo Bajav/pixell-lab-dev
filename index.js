@@ -7,10 +7,10 @@ $(document).ready(function() {
     $('p').hide();
     $('h1').slideDown(5000).fadeIn(5000);
     $('p').fadeIn(9000);
-    // $(".blink1").hide();
-    // $(".blink2").hide();
-    // $(".blink3").hide();
-    // $(".blink1").fadeIn(3000,hideAfter);
+    $(".blink1").hide();
+    $(".blink2").hide();
+    $(".blink3").hide();
+    $(".blink1").fadeIn(3000,hideAfter);
 
 });
 
