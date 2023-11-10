@@ -1,10 +1,12 @@
 const showsAfter=()=>
 {
-    $(".blink3").fadeIn(2000)
+    $(".blink3").fadeIn(10000)
 }
 const showAfter=()=>
 {
-    $(".blink2").fadeIn(1000, showsAfter())
+    $(".blink2").fadeIn(1000, showsAfter());
+    $(".blink2").fadeOut(6000);
+    
 }
 const hideAfter=()=>
 {
