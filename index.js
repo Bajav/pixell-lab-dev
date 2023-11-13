@@ -1,17 +1,3 @@
-const showsAfter=()=>
-{
-    $(".blink3").fadeIn(10000)
-}
-const showAfter=()=>
-{
-    $(".blink2").fadeIn(1000, showsAfter());
-    $(".blink2").fadeOut(6000);
-    
-}
-const hideAfter=()=>
-{
-    $(".blink1").fadeOut(2000, showAfter());
-}
 $(document).ready(function() {
     $('h1').hide();
     $('p').hide();
@@ -20,7 +6,9 @@ $(document).ready(function() {
     $(".blink1").hide();
     $(".blink2").hide();
     $(".blink3").hide();
-    $(".blink1").fadeIn(3000,hideAfter);
+    $(".blink1").fadeIn(3000);
+    $(".blink2").fadeIn(8000);
+    $(".blink3").fadeIn(10000);
 
 });
 
