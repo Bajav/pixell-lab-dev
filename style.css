@@ -74,6 +74,7 @@ li
     text-transform: capitalize;
     font-weight: 100;
     font-size: 15px;
+    border-radius: 10px;
 }
 .btn a
 {
@@ -164,11 +165,9 @@ display: none;
 }
 .read-more
 {
-    position: absolute;
-    top: 33em;
     text-align: center;
-    left:45%;
     color: #fff;
+    margin-left: 45%;
 }
 /* why us page */
 .why-us

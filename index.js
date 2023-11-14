@@ -31,33 +31,33 @@ function hide() {
 
 $('.burger-1').click(hide);
 
-const nextProject = () => {
-    const gallery = $('.gallery');
-    const activeClass = $('.active');
-
-    if (activeClass.length > 0) {
-        activeClass.removeClass('active');
-        if (activeClass.next().length > 0) {
-            activeClass.next().addClass('active');
-        } else {
-            gallery.children().first().addClass('active');
-        }
+const nextSlide = () => {
+    const current = document.querySelector('.active');
+    // Remove class 'current'
+    current.classList.remove('active');
+    if (current.nextElementSibling) {
+      current.nextElementSibling.classList.add('active');
+    } else {
+      slides[0].classList.add('active');
     }
-}
+    // setTimeout(() => {
+    //   current.classList.remove('current');
+    // }, 1000);
+  };
 
-const prevProject = () => {
-    const gallery = $('.gallery');
-    const activeClass = $('.active');
-
-    if (activeClass.length > 0) {
-        activeClass.removeClass('active');
-        if (activeClass.prev().length > 0) {
-            activeClass.prev().addClass('active');
-        } else {
-            gallery.children().last().addClass('active');
-        }
+  const prevSlide = () => {
+    const current = document.querySelector('.active');
+    // Remove class 'current'
+    current.classList.remove('active');
+    if (current.previousElementSibling) {
+      current.previousElementSibling.classList.add('active');
+    } else {
+      slides[slides.length - 0].classList.add('active');
     }
-}
+    // setTimeout(() => {
+    //   current.classList.remove('current');
+    // }, 1000);
+  };  
 
-$('.btn1').click(prevProject);
-$('.btn2').click(nextProject);
+$('.btn1').click(prevSlide);
+$('.btn2').click(nextSlide);
