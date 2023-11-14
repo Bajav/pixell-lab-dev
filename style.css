@@ -879,7 +879,6 @@ display: block;
 .land-page h5
 {
     font-size: 210%;
-    margin: 3% 10%; 
     line-height: 30px;
     font-weight: 200;
 }
@@ -1101,4 +1100,15 @@ display: block;
 {
     font-size: px;
 } */
+}
+@media screen and (max-width:375px) 
+{
+    .blinks
+{
+    margin: 40% 3% 20% 6%;
+}
+.blinks h5
+{
+    font-size: 2em;
+}
 }
