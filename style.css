@@ -1096,6 +1096,15 @@ display: block;
     font-size:4.5em;
     margin-bottom: 0.5em;
 }
+/* contact pages */
+.contact-page
+{
+    height: fit-content; 
+}
+.contact-page .flex-contact h1
+{
+    font-size: 4.5em;
+}
 /* .footer-text 
 {
     font-size: px;
