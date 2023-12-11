@@ -65,6 +65,7 @@ li
 .nav-links li:hover
 {
     background: #000;
+    transition: all 2s;
 }
 .nav-links a:hover
 {
@@ -131,6 +132,10 @@ display: none;
 }
 
 /* landind section text */
+.land-page
+{
+    background: #F8F8FA;
+}
 .content-text h1
 {
     font-family: 'Open Sans', sans-serif;
@@ -159,13 +164,14 @@ display: none;
 /* why us page */
 .why-us
 {
-    background: url(images/background-2\ \(1\).jpg);
+    /* background: url(images/background-2\ \(1\).jpg); */
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    background: #F8F8FA;
 }
 .why-us h1
 {
@@ -175,15 +181,15 @@ display: none;
     text-transform: capitalize;
     color: #000000cf;
     position: relative;
-    padding-top: 0.7em;
+    padding-top: 0.5em;
 }
 .why-us h5
 {
     font-weight: 100;
-    font-size: 80px;
+    font-size: 60px;
     margin-left: 0.3em;
     text-transform: uppercase;
-    line-height: 90px;
+    line-height: 60px;
     text-decoration: underline;
 }
 .text-why
@@ -193,11 +199,24 @@ display: none;
     gap: 10%;
     margin: 0em 5em;
 }
-.text-why img
-{
-    width: 35%;
+.why-us-bg {
+    position: relative;
+    height: 50vh;
+    background: url(./images/sideimage.jpg);
+    width: 30vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 20px;
 }
+/* .why-us-bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
 .call-flex
 {
     display: flex;
@@ -214,6 +233,9 @@ display: none;
 {
     font-size: 20px;
     font-weight: 100;
+    width: 30em;
+    margin-top: 3em;
+    margin-bottom: 0em;
 }
 /* past projects page  */
 .past-projects{
