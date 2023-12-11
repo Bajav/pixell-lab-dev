@@ -34,7 +34,13 @@ h1,h2,h3,h4,h5,h6{margin: 0;}
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
+    background: #EDEEEE;
+    padding-left: 0.4em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-right: 0.4em;
+    border-radius: 30px;
 }
 a
 {
@@ -49,32 +55,39 @@ li
 {
     text-transform: capitalize;
     font-weight: 200;
+    /* background: #231F20; */
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+    border-radius: 20px;
 }
-.nav-links li ::before
+.nav-links li:hover
 {
-    position: absolute;
-    content: '';
-    width: 0px;
-    height: 2px;
     background: #000;
-    top: 2.6em;
 }
-.nav-links li :hover::before
+.nav-links a:hover
 {
-    transition: all 1s;
-    width: 70px;
-} 
+    color: #EDEEEE;    
+}
+.nav-links a
+{
+    color: #151212;
+}
 .btn
 {
     width: fit-content;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     background: #000;
-    padding: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    border-radius: 20px;
     text-transform: capitalize;
     font-weight: 100;
     font-size: 15px;
-    border-radius: 10px;
 }
 .btn a
 {
@@ -116,80 +129,32 @@ display: none;
 {
     display: none;
 }
-/* click view */
-.click-view
-{
-    position: relative;
-    z-index: 5;
-}
-.wrapped
-{
-    position: absolute;
-    width:100%;
-    height: 100vh;   
-    background: #151212;
-    transform: translateY(-100%);
-}
-.wrapped2
-{
-    position: absolute;
-    width:100%;
-    height: 100vh;   
-    background: #151212;
-    transform: translateY(100%);
-}
-/* landind section text */
-.blinks
-{
-    margin:10% 3%;
-}
-.land-page h5
-{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    font-size: 500%; 
-    font-weight: 100;
-    line-height: 80px;
-    color: #000000cf;
-}
-.bg-video
-{
-    position: relative;
-    width: 100vw;
-    overflow: hidden;
-}
-.bg-video video
-{
-    width: 100vw;
-    position: fixed;
-    z-index: -1;
-    height: 100vh;
-    object-fit: cover;
-    left: 0;
-    top: 0;
-}
 
-.land-page p
+/* landind section text */
+.content-text h1
 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 20px;
-    font-size: 150%;
-    font-weight: 200;
-    margin: 0% 3% 0%;  
-    color: #000000cf; 
+    font-weight: 300;
+    font-size: 4.3em;
+    line-height: 62px;
+    position: relative;
+    top: 0.8em;
+    padding: 0.3em;
+    text-transform: capitalize;
 }
-.landing-text
+.content-image
 {
-    margin-top: 5%;
-}
-.read-more
-{
-    text-align: center;
-    color: #fff;
-    margin-left: 45%;
+    width: 97vw;
+    height: 50vh;
+    background-image: url(images/wave-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1em;
+    border-radius: 20px;
+    position: relative;
+    top: 3em;
 }
 /* why us page */
 .why-us
