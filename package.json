@@ -1,0 +1,14 @@
+{
+  "name": "pixell-lab-dev",
+  "version": "1.0.0",
+  "description": "pixel lab devs ug website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hussein balijawa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

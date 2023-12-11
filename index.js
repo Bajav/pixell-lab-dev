@@ -1,3 +1,11 @@
+// $(".click-view").hide();
+
+const slideIn=()=>
+{
+  $(".wrapped").css("transform","translatey(0%)");
+  $(".wrapped").css("transition", "all 1s");
+}
+$(".tag-me").click(slideIn);
 $(document).ready(function() {
     $('h1').hide();
     $('p').hide();
@@ -9,6 +17,7 @@ $(document).ready(function() {
     $(".blink1").fadeIn(3000);
     $(".blink2").fadeIn(8000);
     $(".blink3").fadeIn(10000);
+    // fadeIn(4000,hideView);
 
 });
 
