@@ -1,10 +1,10 @@
 // $(".click-view").hide();
 
-const slideIn=()=>
-{
-  $(".wrapped").css("transform","translatey(0%)");
-  $(".wrapped").css("transition", "all 1s");
-}
+// const slideIn=()=>
+// {
+//   $(".wrapped").css("transform","translatey(0%)");
+//   $(".wrapped").css("transition", "all 1s");
+// }
 $(".tag-me").click(slideIn);
 $(document).ready(function() {
     $('h1').hide();
@@ -34,39 +34,39 @@ function transy() {
 $('.burger').click(transy);
 
 function hide() {
-    $('.nav-links').css("transform", "translateY(-100%)");
+    $('.nav-links').css("transform", "translateY(-98%)");
     $('body').css("overflow","visible");
 }
 
 $('.burger-1').click(hide);
 
-const nextSlide = () => {
-    const current = document.querySelector('.active');
-    // Remove class 'current'
-    current.classList.remove('active');
-    if (current.nextElementSibling) {
-      current.nextElementSibling.classList.add('active');
-    } else {
-      slides[0].classList.add('active');
-    }
-    // setTimeout(() => {
-    //   current.classList.remove('current');
-    // }, 1000);
-  };
+// const nextSlide = () => {
+//     const current = document.querySelector('.active');
+//     // Remove class 'current'
+//     current.classList.remove('active');
+//     if (current.nextElementSibling) {
+//       current.nextElementSibling.classList.add('active');
+//     } else {
+//       slides[0].classList.add('active');
+//     }
+//     // setTimeout(() => {
+//     //   current.classList.remove('current');
+//     // }, 1000);
+//   };
 
-  const prevSlide = () => {
-    const current = document.querySelector('.active');
-    // Remove class 'current'
-    current.classList.remove('active');
-    if (current.previousElementSibling) {
-      current.previousElementSibling.classList.add('active');
-    } else {
-      slides[slides.length - 0].classList.add('active');
-    }
-    // setTimeout(() => {
-    //   current.classList.remove('current');
-    // }, 1000);
-  };  
+  // const prevSlide = () => {
+  //   const current = document.querySelector('.active');
+  //   Remove class 'current'
+  //   current.classList.remove('active');
+  //   if (current.previousElementSibling) {
+  //     current.previousElementSibling.classList.add('active');
+  //   } else {
+  //     slides[slides.length - 0].classList.add('active');
+  //   }
+  //   setTimeout(() => {
+  //     current.classList.remove('current');
+  //   }, 1000);
+  // };  
 
-$('.btn1').click(prevSlide);
-$('.btn2').click(nextSlide);
+// $('.btn1').click(prevSlide);
+// $('.btn2').click(nextSlide);

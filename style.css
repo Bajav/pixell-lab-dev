@@ -8,6 +8,10 @@ body
     box-sizing: content-box;
     overflow-x: hidden;
 }
+section
+{
+    width: 100vw;
+}
 h1,h2,h3,h4,h5,h6{margin: 0;}
 .land-page
 {
@@ -265,7 +269,6 @@ display: none;
 	overflow:hidden;
 	position: relative;
 	width: 960px;
-	
 
 	
 	.slide-track {
@@ -445,7 +448,7 @@ display: none;
 /* pricing  */
 .pricing
 {
-    height: 100vh;
+    height: 110vh;
     background-color: #e3e3e3;      
 }
 .pricing-cards
@@ -454,6 +457,10 @@ display: none;
     gap: 2%;
     justify-content: center;
 }
+.pricing-cards span
+{
+    font-size: 15px;
+}
 .card-1
 {
     font-family: 'Open Sans', sans-serif;
@@ -461,7 +468,7 @@ display: none;
     width: 20%;
     background: #ffffff81;
     border-radius: 30px;
-    height: 90vh;
+    height: 77vh;
     text-transform: capitalize;
     margin-bottom: 20px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -892,7 +899,7 @@ display: none;
     .nav-links{
         position: absolute;
         right: 0px;
-        height: 100vh;
+        height: 110vh;
         top: 0em;
         background: #020202d1;
         display: flex;
@@ -900,7 +907,7 @@ display: none;
         align-items:center;
         justify-content: center;
         gap: 2em;
-        transform: translatey(-100%);
+        transform: translatey(-102%);
         width: 100%;
         transition: 1s ease-in;
         cursor: pointer;
