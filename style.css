@@ -452,20 +452,21 @@ display: none;
         .nav-links{
             position: absolute;
             right: 0px;
-            height: 110vh;
+            height: 100vh;
             top: 0em;
             background: #020202d1;
             display: flex;
             flex-direction: column;
             align-items:center;
-            justify-content: center;
+            justify-content: start;
             gap: 2em;
-            transform: translatey(-102%);
+            transform: translatey(-200%);
             width: 100%;
             transition: 1s ease-in;
             cursor: pointer;
             z-index: -1;
         }
+        /* .nav-links li{margin-top: 1em;} */
         .nav-links a{color: #fff;}
         .burger{display: block;}
         #btn-1{display: none;}
@@ -478,7 +479,10 @@ display: none;
         width: 100%;
     }
 /* home page */
-
+.land-page-index
+{
+    height: 75vh;
+}
 .content-text h1
 {
     font-size: 2.5em;
@@ -499,7 +503,10 @@ display: none;
 }
 
 /* wjy- us page */
-
+.why-us-index
+{
+    height: 100vh;
+}
 .text-why
 {
     display: flex;
@@ -560,12 +567,95 @@ display: none;
 }
 
 /* services */
+.services
+{
+    height: fit-content;
+}
 .inner-cards-main
 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2em;
 }
+.small-inner-card
+{
+    width: 70%;
+    height: 20vh;
+}
+/* .services
+{
+    height: 100vh;
+    background-color: #F2F1EB;   
+}
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards h1
+{
+    margin: 0;
+    font-family: 'Italiana', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    padding-top: 50px;
+}
+.cards-index h1
+{
+    padding: 0;
+    margin-top: 1em;
+}
+.main-page h1
+{
+    font-size: 80px;
+    padding-top: 0.2em;
+}
+.inner-cards-main
+{
+    display: flex;
+    margin-top: 1em;
+    gap: 2em;
+    justify-content: center;
+}
+.small-inner-card
+{
+    background-color: #FAF8ED;
+    padding: 10px;
+    border-radius: 20px;
+    width: 20%;
+    height: 28vh;
+    justify-content: center;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+/*}
+.small-inner-card h1
+{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top:15px;
+    line-height: 25px;
+    padding-top: 0;
+}
+.icons img
+{
+    width: 13%;
+    margin-top: 10px;
+}
+.small-inner-card p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #120909a1;
+    font-weight: 900;
+    margin-top: 10px;
+} */
 }
 /* pricing  */
 .pricing

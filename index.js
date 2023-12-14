@@ -1,10 +1,10 @@
-// $(".click-view").hide();
+$(".click-view").hide();
 
-// const slideIn=()=>
-// {
-//   $(".wrapped").css("transform","translatey(0%)");
-//   $(".wrapped").css("transition", "all 1s");
-// }
+const slideIn=()=>
+{
+  $(".wrapped").css("transform","translatey(0%)");
+  $(".wrapped").css("transition", "all 1s");
+}
 $(".tag-me").click(slideIn);
 $(document).ready(function() {
     $('h1').hide();
