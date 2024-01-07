@@ -71,6 +71,7 @@ li
 {
     background: #000;
     transition: all 2s;
+    /* transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); */
 }
 .nav-links a:hover
 {
@@ -166,6 +167,24 @@ display: none;
     position: relative;
     top: 3em;
 }
+/* .content-image
+{
+    width: 97vw;
+    height: 60vh;
+}
+.video-container {
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 3;
+} */
 
 /* why us page */
 .why-us
@@ -245,14 +264,11 @@ display: none;
 }
 /* past projects page  */
 .past-projects{
-    height: 100vh;
+    height: 150vh;
     background-color: #d6d6d6a7;
 }
 /* scroll loop */
 
-/* @mixin white-gradient {
-	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
-} */
 
 /* $animationSpeed: 40s; */
 
@@ -264,25 +280,25 @@ display: none;
 
 
 .slider {
-	/* background: white; */
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-	height: 100px;
-	margin: auto;
 	overflow:hidden;
 	position: relative;
-	width: 960px;
+    /* background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); */
+	width: 100%;
+    position: relative;
 
 	
 	.slide-track {
 		animation: scroll 40s linear infinite;
+        transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
 		display: flex;
-		width: calc(250px * 14);
+		width: calc(250px * 13);
 	}
-	
-	.slide {
-		height: 100px;
-		width: 250px;
-	}
+    .slide img
+    {
+        height: 40vh;
+        padding: 1em;
+        width: 30vw;
+    }
 }
 .projects-text
 {
@@ -389,7 +405,7 @@ display: none;
 {
     margin: 0;
     font-family: 'Italiana', sans-serif;
-    font-size: 70px;
+    font-size: 90px;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -450,7 +466,6 @@ display: none;
 .pricing
 {
     height: 125vh;
-    /* FCFFB2 e3e3e3*/
     background-color: #F9F5F6;      
 }
 .pricing-cards
@@ -698,7 +713,7 @@ display: none;
 }
 /* media queries */
 
-/* @media screen and (max-width:1334px) {
+ @media screen and (max-width:1334px) {
     .land-page h5
 {
     font-size: 500%;
@@ -744,7 +759,17 @@ display: none;
 {
     margin-top: 2em;
 }
-
+/* cards */
+.pricing
+{
+    height: 140vh;
+}
+.card-1
+{
+    width: 20%;
+    height: 100vh;
+}
+ }
 /* @media screen and (max-width:430px)
  {
     .nav-items{display: flex;
@@ -767,7 +792,7 @@ display: none;
             z-index: -1;
         }
         /* .nav-links li{margin-top: 1em;} */
-        .nav-links a{color: #fff;}
+        /* .nav-links a{color: #fff;}
         .burger{display: none;}
         #btn-1{display: block;}
         .burger-1
@@ -777,7 +802,7 @@ display: none;
     section
     {
         width: 100%;
-    }
+    } */
 /* home page */
 /* .land-page-index
 {
@@ -815,12 +840,12 @@ display: none;
         margin: 0em 2em;
 } */
 
-.text-why p
+/* .text-why p
 {
     font-size: 15px;
     margin-top: 2em;
     margin-bottom: 1em;
-    /* width: 23em; */
+    width: 23em;
 }
 .why-us
 {
@@ -839,7 +864,7 @@ display: none;
 {
     margin-top: 1em;
     padding-bottom: 1em;
-}
+} */
 /* contact page */
 /* .contact
 {
@@ -870,7 +895,7 @@ display: none;
 } */
 
 /* services */
-.services
+/* .services
 {
     height: fit-content;
 }
@@ -885,7 +910,7 @@ display: none;
 {
     width: 70%;
     height: 20vh;
-}
+} */
 
 /* pricing */
 
@@ -909,9 +934,8 @@ display: none;
     display: flex;
     flex-wrap: wrap;
 } */
-@media screen and (max-width:1024px) { 
-    .btn
-{
+@media screen and (max-width:1024px) {  
+    .btn{
     padding: 6px;
     font-size: 10px;
 }
