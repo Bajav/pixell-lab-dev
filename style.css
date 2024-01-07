@@ -264,27 +264,23 @@ display: none;
 }
 /* past projects page  */
 .past-projects{
-    height: 150vh;
+    height: 120vh;
     background-color: #d6d6d6a7;
+    /* background: #000; */
 }
 /* scroll loop */
-
-
 /* $animationSpeed: 40s; */
-
-
 @keyframes scroll {
 	0% { transform: translatex(0); }
 	100% { transform: translatex(calc(-250px * 7))}
 }
-
-
 .slider {
 	overflow:hidden;
 	position: relative;
     /* background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); */
 	width: 100%;
     position: relative;
+    top:7em;
 
 	
 	.slide-track {
@@ -296,98 +292,21 @@ display: none;
     .slide img
     {
         height: 40vh;
+        border-radius: 40px;
         padding: 1em;
         width: 30vw;
     }
 }
-.projects-text
+.pastproject-content h1
 {
-    display: flex;
-    gap: 5%;
-    padding-top: 50px;
-    justify-content: center;
-}
-.side-1
-{
-    margin-left: 1em;
-}
-.side-1 h1
-{
-    font-size: 7em;
+    font-size: 5em;
+    text-align: center;
+    position: relative;
+    top: 1em;
     font-family: 'Italiana', sans-serif;
-    font-weight: 100;
-    margin: 0%;
-}
-.side-1 p
-{
-    text-transform: capitalize;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 3px;
-    margin: 0;
-    font-weight: 500; 
-    font-size: 1em;
-    font-weight: 100;
-}
-.side-1 h3
-{
-    font-size: 3em;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     text-transform: uppercase;
-    line-height: 95%;
-    text-decoration: underline;
-    margin-top: 1.5em;
-    font-weight: 100;
 }
-/* buttons for the slider */
-.btns-main
-{
-    margin-top: 3em;
-}
-.image{opacity: 0;}
-.image.active
-{
-   opacity: 1;
-}
-.svg-1{cursor: pointer;
-}
-.svg-2
-{
-    margin-left: 4em;
-    rotate: 180deg;
-    cursor: pointer;
-}
-/* side 2 of past projects */
-.side-2
-{
-    width: 40%;
-    margin-right: 18em;
-}
-.image{width:fit-content}
-.mobile-version{display: none;}
-.image img
-{
-    -webkit-box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 13px 75px 0px rgba(0,0,0,0.75);
-    margin-top: 2em;
-    width: 120%;
-}
-.c1 img
-{
-    width: 150%;
-    background: none;
-}
-.c2 img
-{
-    position:absolute;
-    top: 4em;
-    width: 50%;
-    background: none;
-}
-/* side2 btns */
-
 /* sercices page */
 .services
 {
