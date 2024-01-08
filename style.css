@@ -272,7 +272,7 @@ display: none;
 /* $animationSpeed: 40s; */
 @keyframes scroll {
 	0% { transform: translatex(0); }
-	100% { transform: translatex(calc(-250px * 7))}
+	100% { transform: translatex(calc(-250px * 5))}
 }
 .slider {
 	overflow:hidden;
@@ -292,7 +292,7 @@ display: none;
     .slide img
     {
         height: 40vh;
-        border-radius: 40px;
+        border-radius: 30px;
         padding: 1em;
         width: 30vw;
     }
@@ -657,27 +657,7 @@ display: none;
     line-height: 1;
 }
 /* past projects */
-.past-projects
-{
-    height: 115vh;
-}
-.c1 img
-{
-    width: 150%;
-    padding-bottom: 0px;
-}
-.c2 img
-{
-    width: 50%;
-}
-.side-1 h1
-{
-    font-size: 6em;
-}
-.side-1 h3
-{
-    margin-top: 2em;
-}
+
 /* cards */
 .pricing
 {
@@ -865,27 +845,6 @@ display: none;
     height: 33vh;
 } 
 /* past projects */
- .past-projects
-{
-    height: 103vh;
-}
-.c1 img
-{
-    width: 210%;
-    padding-bottom: 0px;
-}
-.side-1 h1
-{
-    font-size: 6em;
-}
-.side-1 h3
-{
-    margin-top: 1em;
-}
-.c2 img
-{
-    width: 53%;
-}
 }
 /* big sceen render */
 
@@ -961,42 +920,9 @@ display: none;
 {
     font-size: 16px;
     font-weight: bold;
-} */
+} 
 /* past projects */
- .past-projects
-{
-    height: 100vh;
-}
-.c1 img
-{
-    width: 270%;
-    padding-bottom: 0px;
-}
-.c2 img
-{
-    width: 59%;
-}
-.image button
-{
-    top: 30em;
-}
-.side-1 h1
-{
-    font-size: 3.5em;
-}
-.side-1
-{
-    margin-left: 2em;
-}
-.side-1 h3
-{
-    margin-top: 5em;
-    font-size: 2em;
-}
-.side-1 p
-{
-    font-size: 10px;
-}
+
  }
 /* phone */
  @media screen and (max-width:425px) 
@@ -1027,11 +953,11 @@ display: none;
 {
 display: block;
 }
-.land-page h5
-{
-    font-size: 210%;
-    line-height: 30px;
-    font-weight: 200;
+.land-page h1 {
+    font-size: 300%;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 1% 2%;
 }
 .land-page p
 {
@@ -1047,6 +973,18 @@ display: block;
 {
     margin-top: 20%;
 } 
+.content-image {
+    width: 90vw;
+    height: 60vh;
+    background-image: url(images/wave-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1em;
+    border-radius: 20px;
+    position: relative;
+    top: 3em;
+}
         /* why us */
         .why-us
         {
@@ -1076,8 +1014,18 @@ display: block;
             display: flex;
             align-items: center;
             flex-direction: column;
-            gap: 0;
+            gap: 2em;
             margin: 0em 1em;
+        }
+        .why-us-bg {
+            position: relative;
+            height: 60vh;
+            background: url(./images/sideimage.jpg);
+            width: 90vw;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 20px;
         }
         /* services cards */
       .services
@@ -1115,53 +1063,42 @@ display: block;
     font-weight: bold;
 } */
 /* past projects */
- .past-projects
-{
-    height: 130vh;
+.past-projects{
+    background-color: #d6d6d6a7;
+    height: 140vh;
 }
-.projects-text
-{
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
+@keyframes scroll {
+	0% { transform: translatex(0); }
+	100% { transform: translatex(calc(-250px * 5))}
 }
-.btns-main
-{
-    display: block;
+.slider {
+	overflow:hidden;
+	position: relative;
+    /* background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); */
+	width: 100%;
+    position: relative;
+    top:7em;
+
+	
+	.slide-track {
+		animation: scroll 50s linear infinite;
+        transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+		display: flex;
+        gap: 1em;
+	}
+    .slide img
+    {
+        height: 50vh;
+        border-radius: 30px;
+        padding: 1.5em;
+        width: 100vw;
+    }
 }
-.side-1 h3
+.pastproject-content h1
 {
-    display: none;
+    font-size: 3em;
+    top: 2em;
 }
-.c1 img
-{
-    width: 130%;
-    padding-bottom: 0px;
-}
-.c2 img
-{
-    width: 90%;
-    top: 20em;
-}
-.side-2
-{
-    width: 70%;
-    margin-right: 0em;
-    margin-left: 1em;
-}
-.mobile-version
-{
-    font-size: 2em;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    line-height: 95%;
-    text-decoration: underline;
-    font-weight: 100;   
-    margin-top: 1em;
-    margin-left:1em;
-    display: block;
-} */
 /* pricing */
  .pricing
 {
