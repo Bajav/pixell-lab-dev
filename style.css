@@ -960,8 +960,8 @@ display: block;
 .land-page h1 {
     font-size: 300%;
     font-weight: 300;
-    line-height: 40px;
-    margin: 1% 2%;
+    line-height: 46px;
+    margin: 7% 3%;
 }
 .land-page p
 {
@@ -1204,17 +1204,20 @@ display: block;
 }
 @media screen and (max-width:375px) 
 {
-    .blinks
-{
-    margin: 40% 3% 20% 6%;
-}
-.blinks h5
-{
-    font-size: 2em;
-}
+    .land-page h1 {
+        font-size: 280%;
+        margin-top: 1em;
+    }
 }
 /* uni */
-/* @media screen and (max-width:320px)
- {
-
- /* }  
+@media screen and (max-width:320px)
+{
+    .land-page h1 {
+        font-size: 240%;
+        margin-top: 1em;
+    }   
+    .text-huge h1
+{
+    font-size: 3.8em;
+}
+}  
