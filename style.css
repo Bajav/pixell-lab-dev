@@ -16,9 +16,20 @@ section
 h1,h2,h3,h4,h5,h6{margin: 0;}
 .land-page
 {
+    z-index: -1;
     background-blend-mode: overlay;
     height: 100vh;
     background-color: #ffffff9f;
+}
+.transition-cover
+{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    background: #151212;
 }
 .nav-items
 {
@@ -153,11 +164,12 @@ display: none;
     top: 0.8em;
     padding: 0.3em;
     text-transform: capitalize;
+    width: 13em;
 }
 .content-image
 {
     width: 97vw;
-    height: 60vh;
+    height: 42vh;
     background-image: url(images/wave-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -166,6 +178,20 @@ display: none;
     border-radius: 20px;
     position: relative;
     top: 3em;
+}
+.content p
+{
+    margin-top: 2.3em;
+    letter-spacing: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: start;
+    margin-left: 0.7em;
+    font-size: 30px;
+    color: #12111168;
+    margin-bottom: 0;
 }
 /* .content-image
 {
@@ -329,11 +355,6 @@ display: none;
     letter-spacing: 2px;
     text-transform: capitalize;
     padding-top: 50px;
-}
-.cards-index h1
-{
-    padding: 0;
-    margin-top: 1em;
 }
 .main-page h1
 {
@@ -961,7 +982,8 @@ display: block;
     font-size: 300%;
     font-weight: 300;
     line-height: 46px;
-    margin: 7% 3%;
+    margin: 0% 3%;
+    width: 7em;
 }
 .land-page p
 {
@@ -979,7 +1001,7 @@ display: block;
 } 
 .content-image {
     width: 90vw;
-    height: 60vh;
+    height: 40vh;
     background-image: url(images/wave-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -988,6 +1010,20 @@ display: block;
     border-radius: 20px;
     position: relative;
     top: 3em;
+}
+.content p
+{
+    margin-top: 10em;
+    letter-spacing: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: start;
+    margin-left: 0.7em;
+    font-size: 30px;
+    color: #12111168;
+    margin-bottom: 0;
 }
         /* why us */
         .why-us
@@ -1056,7 +1092,7 @@ display: block;
 .cards h1
 {
     font-size: 80px;
-    font-weight: 700;
+    font-weight: 300;
     margin-right: 1em;
     margin-top: 0.5em;
     margin-bottom: 0.2em;
@@ -1219,5 +1255,27 @@ display: block;
     .text-huge h1
 {
     font-size: 3.8em;
+}
+.cards h1
+{
+    margin-right: 0em;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+.slider {
+
+    .slide img
+    {
+        height: 45vh;
+        border-radius: 30px;
+        padding: 1em;
+        width: 110vw;
+    }
+}
+.pastproject-content h1
+{
+    font-size: 4em;
+    line-height: 50px;
+    margin-bottom: 1em;
 }
 }  
