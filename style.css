@@ -153,13 +153,12 @@ display: none;
 {
     background: #F8F8FA;
 }
-.content-text h1
-{
+.content-text h1 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 5em;
-    line-height: 73px;
+    font-size: 4em;
+    line-height: 65px;
     position: relative;
     top: 0.8em;
     padding: 0.3em;
@@ -179,9 +178,8 @@ display: none;
     position: relative;
     top: 3em;
 }
-.content p
-{
-    margin-top: 2.3em;
+.content p {
+    margin-top: 2em;
     letter-spacing: 30px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -1013,17 +1011,18 @@ display: block;
 }
 .content p
 {
-    margin-top: 10em;
-    letter-spacing: 30px;
+    margin-top: 3em;
+    letter-spacing: 20px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
     text-align: start;
     margin-left: 0.7em;
-    font-size: 30px;
+    font-size: 20px;
     color: #12111168;
     margin-bottom: 0;
+    width: 100%;
 }
         /* why us */
         .why-us
