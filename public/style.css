@@ -21,16 +21,6 @@ h1,h2,h3,h4,h5,h6{margin: 0;}
     height: 100vh;
     background-color: #ffffff9f;
 }
-.transition-cover
-{
-    display: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 3;
-    background: #151212;
-}
 .nav-items
 {
     display: flex;
@@ -147,7 +137,42 @@ display: none;
 {
     display: none;
 }
+/* barba css */
+.transition-cover
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    background: #151212;
+    transform: translateY(-100%);
+}
+.home-enter-active,
+.home-leave-active,
+.home-enter-active .transition-cover,
+.home-leave-to .transition-cover
+{
+    transition : transform 0.5s ease-in-out ;
+}
 
+.home-enter .transition-cover
+{
+    transform: translateY(0%);
+}
+
+.home-enter-to .transition-cover
+{
+   transform: translateY(100%);
+}
+.home-leave .transition-cover
+{
+    transform: translateY(-100%);
+}
+.home-leave-to .transition-cover
+{
+    transform: translateY(-0%);
+}
 /* landind section text */
 .land-page
 {
