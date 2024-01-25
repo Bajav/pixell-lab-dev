@@ -137,6 +137,10 @@ display: none;
 {
     display: none;
 }
+.tag-me-hide
+{
+    display: none;
+}
 /* barba css */
 .transition-cover
 {
@@ -974,9 +978,16 @@ display: none;
         z-index: -1;
         border-radius: unset;
     }
+    #btn-1
+    {
+        display: none;
+    }
+    .tag-me-hide
+    {
+        display: block;
+    }
     .nav-links a{color: #fff;}
     .burger{display: block;}
-    #btn-1{display: none;}
     .burger-1
 {
 display: block;
@@ -1034,6 +1045,9 @@ position: relative;
     color: #12111168;
     margin-bottom: 0;
     width: 110%;
+}
+.contact-page .flex-contact h1 {
+    font-size: 5em;
 }
         /* why us */
         .why-us
@@ -1208,7 +1222,7 @@ position: relative;
 }
 .text-huge h1
 {
-    font-size: 4.8em;
+    font-size: 4.5em;
 }
 .flex-items
 {
@@ -1276,6 +1290,12 @@ position: relative;
         color: #12111168;
         margin-bottom: 0;
         width: 107%;
+    }
+    .slide img {
+        height: 40vh;
+        border-radius: 30px;
+        padding: 0.5em;
+        width: 100vw;
     }
 }
 /* uni */
