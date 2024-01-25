@@ -204,9 +204,8 @@ display: none;
     top: 3em;
 }
 .content p {
-    margin-top: 2em;
+    margin-top: 2.5em;
     letter-spacing: 30px;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
@@ -216,25 +215,10 @@ display: none;
     color: #12111168;
     margin-bottom: 0;
 }
-/* .content-image
+.services-height
 {
-    width: 97vw;
-    height: 60vh;
+    height: 100vh;
 }
-.video-container {
-    height: 300px;
-    width: 300px;
-    position: relative;
-}
-
-.video-container video {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  z-index: 3;
-} */
-
 /* why us page */
 .why-us
 {
@@ -394,20 +378,19 @@ display: none;
 .small-inner-card
 {
     background-color: #FAF8ED;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
     width: 20%;
-    height: 28vh;
-    justify-content: center;
+    height: 30vh
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
 }
 .small-inner-card h1
 {
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    margin-top:15px;
+    margin-top: 25px;
     line-height: 25px;
     padding-top: 0;
 }
@@ -420,10 +403,10 @@ display: none;
 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     color: #120909a1;
     font-weight: 900;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 /* pricing  */
 .pricing
@@ -976,12 +959,12 @@ display: none;
     .nav-links{
         position: absolute;
         right: 0px;
-        height: 110vh;
+        height: 100vh;
         top: 0em;
         background: #020202d1;
         display: flex;
         flex-direction: column;
-        align-items:center;
+        align-items: start;
         justify-content: center;
         gap: 2em;
         transform: translatey(-102%);
@@ -989,6 +972,7 @@ display: none;
         transition: 1s ease-in;
         cursor: pointer;
         z-index: -1;
+        border-radius: unset;
     }
     .nav-links a{color: #fff;}
     .burger{display: block;}
@@ -996,17 +980,19 @@ display: none;
     .burger-1
 {
 display: block;
+position: relative;
+    left: 2em;
 }
 .contact-button
 {
     display: none;
 }
 .land-page h1 {
-    font-size: 300%;
+    font-size: 239%;
     font-weight: 300;
-    line-height: 46px;
-    margin: 0% 3%;
-    width: 7em;
+    line-height: 1;
+    margin: 10% 0% 3% 0%;
+    width: 78%;
 }
 .land-page p
 {
@@ -1036,18 +1022,18 @@ display: block;
 }
 .content p
 {
-    margin-top: 3em;
-    letter-spacing: 20px;
+    margin-top: 3.7em;
+    letter-spacing: 5px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
     text-align: start;
     margin-left: 0.7em;
-    font-size: 20px;
+    font-size: 15px;
     color: #12111168;
     margin-bottom: 0;
-    width: 100%;
+    width: 110%;
 }
         /* why us */
         .why-us
@@ -1069,9 +1055,14 @@ display: block;
             margin-top: 2em;
             font-size: 16px;
         }
-        .why-us h5
+        .why-us h1
         {
-            margin-top: 1em;
+            margin-top: 0.5em;
+            font-size: 65px;
+        }
+        .call-flex
+        {
+            margin-top: 2em;
         }
         .text-why
         {
@@ -1092,9 +1083,8 @@ display: block;
             border-radius: 20px;
         }
         /* services cards */
-      .services
-        {
-            height: fit-content;
+        .services-height {
+            height: 1630px;
         }
         .inner-cards-main
 {
@@ -1106,8 +1096,12 @@ display: block;
 }
 .small-inner-card
 {
-    width: 60%;
-    height: 33vh;
+    width: 80%;
+    height: 30vh;
+}
+.small-inner-card p
+{
+    font-size: 10px;
 }
 .inner-cards-main
 {
@@ -1214,7 +1208,7 @@ display: block;
 }
 .text-huge h1
 {
-    font-size: 5.1em;
+    font-size: 4.8em;
 }
 .flex-items
 {
@@ -1265,8 +1259,23 @@ display: block;
 @media screen and (max-width:375px) 
 {
     .land-page h1 {
-        font-size: 280%;
+        font-size: 232%;
         margin-top: 1em;
+        width: 95%;
+    }
+    .content p {
+        margin-top: 3.7em;
+        letter-spacing: 5px;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-align: start;
+        margin-left: 0.7em;
+        font-size: 17px;
+        color: #12111168;
+        margin-bottom: 0;
+        width: 107%;
     }
 }
 /* uni */
