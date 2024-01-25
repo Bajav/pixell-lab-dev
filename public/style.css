@@ -301,7 +301,7 @@ display: none;
 }
 /* past projects page  */
 .past-projects{
-    height: 120vh;
+    height: 950px;
     background-color: #d6d6d6a7;
     /* background: #000; */
 }
@@ -1137,7 +1137,7 @@ position: relative;
 /* past projects */
 .past-projects{
     background-color: #d6d6d6a7;
-    height: 140vh;
+    height: 900px;
 }
 @keyframes scroll {
 	0% { transform: translatex(0); }
